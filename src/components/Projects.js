@@ -17,6 +17,10 @@ function Projects(){
                 <h3>Word-Quiz</h3>
                 <p> React, HTML, CSS, Bulma</p>
                 <p>About</p>
+                <div>
+                    <button>Website</button>
+                    <button>Code</button>
+                </div>
                 </div>
             </motion.div>
             <motion.div animate={{x: 0}} initial={{x: 800}} transition={{type: 'tween', duration: 3}}
@@ -25,6 +29,10 @@ function Projects(){
                 <h3>Info-Land</h3>
                 <p> React, HTML, CSS</p>
                 <p>About</p>
+                <div>
+                    <button>Website</button>
+                    <button>Code</button>
+                </div>
                 </div>
                 <div>
                     <img src={ILpic} className='il-pic'/>
