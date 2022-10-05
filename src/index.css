@@ -1,6 +1,7 @@
 
 body{
   background-color: grey;
+  color: white;
   background-image: url(./images/mountain.jpg);
 }
 
@@ -30,12 +31,16 @@ body{
 
 .nav{
   font-family: 'Courier New', Courier, monospace;
-  color: white;
   border: 1px solid white;
+  color: white;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   margin-top: 5rem;
+}
+
+a{
+  text-decoration: none;
 }
 
 .lets-talk{

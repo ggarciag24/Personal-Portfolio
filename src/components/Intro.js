@@ -3,7 +3,6 @@ import {motion} from 'framer-motion';
 
 
 function Intro() {
-    // const [isRotate, setIsRotate] = React.useState(false);
 
     return (
         <div className='head'>
@@ -15,10 +14,10 @@ function Intro() {
             </motion.div>
 
             <div className='nav is-size-3'>
-                <motion.p whileHover={{ scale: 3, color: 'orange'}}>Projects</motion.p>
-                <motion.p whileHover={{ scale: 3, color: 'orange'}}>Resume</motion.p>
-                <motion.p whileHover={{ scale: 3, color: 'orange'}}>Skills</motion.p>
-                <motion.p whileHover={{ scale: 3, color: 'orange'}}>About</motion.p>
+                <motion.a href='#projects' whileHover={{ scale: 3, color: 'orange'}} initial={{color: 'white'}}>Projects</motion.a>
+                <motion.a href='#resume' whileHover={{ scale: 3, color: 'orange'}} initial={{color: 'white'}}>Resume</motion.a>
+                <motion.a href='#skills' whileHover={{ scale: 3, color: 'orange'}} initial={{color: 'white'}}>Skills</motion.a>
+                <motion.a href='#about' whileHover={{ scale: 3, color: 'orange'}} initial={{color: 'white'}}>About</motion.a>
             </div>
         </div>
     )
