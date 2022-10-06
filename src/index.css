@@ -78,12 +78,20 @@ a:hover {
 
 .projects{
   font-family: 'Courier New', Courier, monospace;
-  color: white;
   border: 1px solid white;
+  color: black;
   display: flex;
   align-items: center;
   justify-content: center;
+  background: linear-gradient(to right, rgba(255,255,255,.8), rgba(255,255,255,.3));
+  backdrop-filter: blur(4px);
   margin-top: 1.5rem;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.project-about{
+  margin-bottom: 1rem;
 }
 
 .wq-details{
@@ -91,7 +99,7 @@ a:hover {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-left: 3rem;
+  width: 50%
 }
 
 .wq-pic{
@@ -105,13 +113,21 @@ a:hover {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-right: 3rem;
+  width: 50%
 }
 
 .il-pic {
   height: 12rem;
   width: 14rem;
   margin-left: 3rem;
+}
+
+.project-btns{
+  margin-bottom: 0.7rem;
+}
+
+.code-btn{
+  margin-left: 1rem;
 }
 
 
