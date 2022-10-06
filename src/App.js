@@ -18,6 +18,7 @@ function App() {
       <Resume />
       <Skills />
       <About />
+      <br></br>
     </div>
   );
 }
