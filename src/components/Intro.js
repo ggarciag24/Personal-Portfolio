@@ -15,10 +15,10 @@ function Intro() {
             </motion.div>
 
             <div className='nav is-size-3'>
-               <Link activeClass="active" to="projects" spy={true} smooth={true} offset={-100} duration={700}><motion.a href='#projects' whileHover={{ scale: 3, color: 'orange'}} initial={{color: 'white'}}>Projects</motion.a></Link>
-               <Link activeClass="active" to="resume" spy={true} smooth={true} offset={-100} duration={700}><motion.a href='#resume' whileHover={{ scale: 3, color: 'orange'}} initial={{color: 'white'}}>Resume</motion.a></Link>
-               <Link activeClass="active" to="skills" spy={true} smooth={true} offset={-100} duration={700}><motion.a href='#skills' whileHover={{ scale: 3, color: 'orange'}} initial={{color: 'white'}}>Skills</motion.a></Link>
-               <Link activeClass="active" to="about" spy={true} smooth={true} offset={-100} duration={700}><motion.a href='#about' whileHover={{ scale: 3, color: 'orange'}} initial={{color: 'white'}}>About</motion.a></Link>
+                <motion.a href='#projects' whileHover={{ scale: 3}}><Link activeClass="active" to="projects" spy={true} smooth={true} offset={-100} duration={700}>Projects</Link></motion.a>
+                <motion.a href='#resume' whileHover={{ scale: 3}}><Link activeClass="active" to="resume" spy={true} smooth={true} offset={-100} duration={700}>Resume</Link></motion.a>
+                <motion.a href='#skills' whileHover={{ scale: 3}}><Link activeClass="active" to="skills" spy={true} smooth={true} offset={-100} duration={700}>Skills</Link></motion.a>
+               <motion.a href='#about' whileHover={{ scale: 3}}><Link activeClass="active" to="about" spy={true} smooth={true} offset={-100} duration={700}>About</Link></motion.a>
             </div>
         </div>
     )
