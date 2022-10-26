@@ -9,10 +9,10 @@ function Skills(){
             <div class='container is-size-3'><motion.div whileHover={{ scale: 1.3, color: 'orange'}}>S</motion.div><motion.div whileHover={{ scale: 1.3, color: 'orange'}}>k</motion.div><motion.div whileHover={{ scale: 1.3, color: 'orange'}}>i</motion.div><motion.div whileHover={{ scale: 1.3, color: 'orange'}}>l</motion.div><motion.div whileHover={{ scale: 1.3, color: 'orange'}}>l</motion.div><motion.div whileHover={{ scale: 1.3, color: 'orange'}}>s</motion.div></div>
             <div>
                 <ul>
-                    <li>HTML, CSS, Javascript, React, Jest, Flexbox</li>
-                    <li>Github, Jira, Slack</li>
-                    <li>Bulma, Framer Motion</li>
-
+                    <li>Languages: Javascript, HTML, CSS</li>
+                    <li>Frameworks: ReactJS, Jest, Bulma </li>
+                    <li>Tools: Git, Github, CLI, Heroku, Jira, Slack</li>
+                    <li>Other: HTTP, API, CSS Flexbox</li>
                 </ul>
             </div>
         </div>
